@@ -1,10 +1,7 @@
-import '../layout/Header';
-import '../layout/Footer';
-import '../layout/Sidebar';
-import '../layout/Contents';
 import Header from '../layout/Header';
 import Sidebar from '../layout/Sidebar';
 import Contents from '../layout/Contents';
+import Footer from '../layout/Footer';
 
 /**
  * @description Main
@@ -18,12 +15,12 @@ function Main() {
 
     return (
         <>
-            <Header />
+            <Header title="Header" />
             <div style={style}>
                 <Sidebar />
                 <Contents />
             </div>
-            <Footer />
+            <Footer title="Footer" />
         </>
     );
 }

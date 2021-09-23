@@ -1,7 +1,8 @@
+import Router from '../router/Router';
+
 /**
  * @description Contents
  */
-
 function Contents() {
     // css
     const style = {
@@ -13,6 +14,8 @@ function Contents() {
         width: '85%',
         border: '1px solid darkgrey',
     };
+
+    // view
     return (
         <div style={style}>
             <Router />
