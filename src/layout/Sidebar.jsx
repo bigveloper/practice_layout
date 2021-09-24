@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 /**
  * @description Sidebar
  */
-
 function Sidebar() {
     // css
     const style = {
@@ -12,9 +11,11 @@ function Sidebar() {
 
         width: '15%',
         height: 'calc(100vh - 200px)',
-        border: '1px solid darkgrey',
+        border: '1px solid darkgray',
         boxSizing: 'border-box',
     };
+
+    // view
     return (
         <div style={style}>
             <ul>
