@@ -14,7 +14,11 @@ function Contents() {
     };
 
     // view
-    return;
+    return (
+        <div style={style}>
+            <Router />
+        </div>
+    );
 }
 
 export default Contents;
