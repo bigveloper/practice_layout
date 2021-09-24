@@ -7,6 +7,9 @@ import Footer from '../layout/Footer';
  */
 
 function Main() {
+    const style = {
+        display: 'flex',
+    };
     return (
         <>
             <Header title="Header" />
