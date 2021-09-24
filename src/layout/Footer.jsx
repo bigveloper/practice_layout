@@ -2,7 +2,7 @@
  * @description Footer
  */
 
-function Footer() {
+function Footer(props) {
     const style = {
         display: 'flex',
         alignItems: 'center',

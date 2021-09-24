@@ -18,13 +18,21 @@ function Sidebar() {
     return (
         <div style={style}>
             <ul>
-                <ui>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
-                    <Link></Link>
-                </ui>
+                <li>
+                    <Link to="/menu01">Menu01</Link>
+                </li>
+                <li>
+                    <Link to="/menu02">Menu02</Link>
+                </li>
+                <li>
+                    <Link to="/menu03">Menu03</Link>
+                </li>
+                <li>
+                    <Link to="/menu04">Menu04</Link>
+                </li>
+                <li>
+                    <Link to="/menu05">Menu05</Link>
+                </li>
             </ul>
         </div>
     );

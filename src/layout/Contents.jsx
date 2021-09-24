@@ -1,3 +1,5 @@
+import Router from '../router/Router';
+
 /**
  * @description Contents
  */
