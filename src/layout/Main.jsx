@@ -18,7 +18,7 @@ function Main() {
                 <Sidebar />
                 <Contents />
             </div>
-            <Footer title="title" />
+            <Footer title="Footer" />
         </>
     );
 }
