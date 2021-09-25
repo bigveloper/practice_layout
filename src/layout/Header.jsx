@@ -9,7 +9,7 @@ function Header(props) {
         justifyContent: 'center',
 
         height: '100px',
-        border: '1px solid green',
+        border: '3px solid green',
     };
     return <h1 style={style}>{props.title}</h1>;
 }
