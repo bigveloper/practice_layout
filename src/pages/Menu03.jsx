@@ -3,6 +3,6 @@
  */
 
 function Menu03() {
-    return;
+    return <h1>Menu03</h1>;
 }
 export default Menu03;

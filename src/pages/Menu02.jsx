@@ -3,7 +3,7 @@
  */
 
 function Menu02() {
-    return;
+    return <h1>Menu02</h1>;
 }
 
 export default Menu02;
