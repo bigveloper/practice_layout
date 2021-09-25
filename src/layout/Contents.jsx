@@ -7,12 +7,12 @@ import Router from '../router/Router';
 function Contents() {
     const style = {
         display: 'flex',
+        alignItem: 'center',
         justifyContent: 'center',
 
         width: '85%',
-        height: 'calc(100vh - 200px)',
+        height: 'calc(100vh-200px)',
         border: '1px solid pink',
-        boxSizing: 'border-box',
     };
     return (
         <div style={style}>
