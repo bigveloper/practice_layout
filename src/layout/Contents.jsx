@@ -1,4 +1,4 @@
-import { Router } from 'react-router-dom';
+import Router from '../router/Router';
 /**
  * @description Contents
  */
@@ -10,7 +10,7 @@ function Contents() {
         justifyContent: 'center',
 
         width: '85%',
-        height: 'calc(100vh-200px)',
+        height: 'calc(100vh - 200px)',
         border: '1px solid black',
     };
     return (

@@ -10,27 +10,27 @@ function Sidebar() {
         justifyContent: 'center',
 
         width: '15%',
-        height: 'calc(100vh-200px)',
-        border: '1px solid black',
+        height: 'calc(100vh - 200px)',
+        border: '1px solid darkgray',
         boxSizing: 'border-box',
     };
     return (
         <div style={style}>
             <ul>
                 <li>
-                    <Link to="menu01">Menu01</Link>
+                    <Link to="/menu01">Menu01</Link>
                 </li>
                 <li>
-                    <Link to="menu02">Menu02</Link>
+                    <Link to="/menu02">Menu02</Link>
                 </li>
                 <li>
-                    <Link to="menu03">Menu03</Link>
+                    <Link to="/menu03">Menu03</Link>
                 </li>
                 <li>
-                    <Link to="menu04">Menu04</Link>
+                    <Link to="/menu04">Menu04</Link>
                 </li>
                 <li>
-                    <Link to="menu05">Menu05</Link>
+                    <Link to="/menu05">Menu05</Link>
                 </li>
             </ul>
         </div>
