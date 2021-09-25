@@ -8,6 +8,9 @@ import Contents from '../layout/Contents';
  */
 
 function Main() {
+    const style = {
+        display: 'flex',
+    };
     return (
         <>
             <Header title="Header" />
