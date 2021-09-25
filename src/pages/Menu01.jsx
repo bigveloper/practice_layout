@@ -1,9 +1,9 @@
 /**
- * @description Menu01
+ * @description 메뉴01
  */
 
 function Menu01() {
-    return;
+    return <h1>Menu01</h1>;
 }
 
 export default Menu01;
