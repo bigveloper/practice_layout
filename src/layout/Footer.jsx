@@ -2,8 +2,16 @@
  * @description Footer
  */
 
-function Footer() {
-    return;
+function Footer(props) {
+    const style = {
+        display: 'flex',
+        alignItem: 'center',
+        justifyContent: 'center',
+
+        height: '100px',
+        border: '3px solid blue',
+    };
+    return <h1 style={style}>{props.title}</h1>;
 }
 
 export default Footer;
