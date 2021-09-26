@@ -9,7 +9,7 @@ function Sidebar() {
         display: 'flex',
         justfyContent: 'center',
 
-        width: '85%',
+        width: '15%',
         height: 'calc(100vh - 200px)',
         border: '3px solid red',
         boxSizing: 'border-box',
@@ -18,19 +18,19 @@ function Sidebar() {
         <div style={style}>
             <ul>
                 <li>
-                    <link to="/menu01">Menu01</link>
+                    <Link to="/menu01">Menu01</Link>
                 </li>
                 <li>
-                    <link to="/menu02">Menu02</link>
+                    <Link to="/menu02">Menu02</Link>
                 </li>
                 <li>
-                    <link to="/menu03">Menu03</link>
+                    <Link to="/menu03">Menu03</Link>
                 </li>
                 <li>
-                    <link to="/menu04">Menu04</link>
+                    <Link to="/menu04">Menu04</Link>
                 </li>
                 <li>
-                    <link to="/menu05">Menu05</link>
+                    <Link to="/menu05">Menu05</Link>
                 </li>
             </ul>
         </div>
