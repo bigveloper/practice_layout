@@ -30,6 +30,15 @@ function ToDoList() {
         });
     };
 
+    const onDelete = (index) => {
+        setList((prevState) => {
+            const deleteList = prevState.filter((item, i) => {
+                return i !== index && item;
+            });
+            return deleteList;
+        });
+    };
+
     useEffect(() => {
         console.log(value);
     }, [value]);
@@ -44,6 +53,7 @@ function ToDoList() {
                 <div key={index}>
                     <input value={item} readOnly />
                     <button onClick={() => onEdit(index)}>Edit</button>
+                    <button onClick={() => onDelete(index)}>Delete</button>
                 </div>
             ))}
         </div>
