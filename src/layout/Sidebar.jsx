@@ -18,7 +18,7 @@ function Sidebar() {
         <div style={style}>
             <ul>
                 <li>
-                    <Link to="/menu01">Menu01</Link>
+                    <Link to="/todolist">ToDoList</Link>
                 </li>
                 <li>
                     <Link to="/menu02">Menu02</Link>
