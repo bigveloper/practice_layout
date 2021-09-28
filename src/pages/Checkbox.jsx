@@ -14,7 +14,7 @@ function Checkbox() {
 
     // Watch
     useEffect(() => {
-        console.log(laptop);
+        console.log(laptop + ' 를 선택하셨습니다.');
     }, [laptop]);
 
     // View
