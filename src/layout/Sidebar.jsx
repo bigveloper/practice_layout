@@ -34,6 +34,9 @@ function Sidebar() {
                 <li>
                     <Link to="/textarea">Textarea</Link>
                 </li>
+                <li>
+                    <Link to="/logout">Logout</Link>
+                </li>
             </ul>
         </div>
     );

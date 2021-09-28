@@ -4,6 +4,7 @@ import Password from '../pages/Password';
 import Radio from '../pages/Radio';
 import Select from '../pages/Select';
 import Textarea from '../pages/Textarea';
+import Logout from '../pages/Logout';
 
 /**
  * @description Router
@@ -17,6 +18,7 @@ function Router() {
             <Route path="/radio" component={Radio} />
             <Route path="/select" component={Select} />
             <Route path="/textarea" component={Textarea} />
+            <Route path="/logout" component={Logout} />
         </Switch>
     );
 }

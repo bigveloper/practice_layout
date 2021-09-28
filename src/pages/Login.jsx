@@ -2,9 +2,9 @@ import { useRecoilState } from 'recoil';
 import { loginState } from '../global/loginState';
 
 /**
- * @description Header
+ * @description Login 컴포넌트
  */
-function Header(props) {
+function Login() {
     // recoil
     const [isLogin, setIsLogin] = useRecoilState(loginState);
 
@@ -14,20 +14,20 @@ function Header(props) {
         alignItem: 'center',
         justifyContent: 'center',
 
-        height: '100px',
-        lineHeight: '100px',
-        border: '3px solid red',
+        height: '100vh',
+        lineHeight: '100vh',
     };
 
     // event
-    const onLogout = () => setIsLogin(false);
+    const onLogin = () => setIsLogin(true);
 
-    // view
     return (
-        <>
-            <h1 style={style}>{props.title}</h1>
-        </>
+        <div style={style}>
+            <form>
+                <button onClick={onLogin}>Login</button>
+            </form>
+        </div>
     );
 }
 
-export default Header;
+export default Login;
